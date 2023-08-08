@@ -8,4 +8,5 @@ python -m SimpleHTTPServer 8000 &> /dev/null & echo "Simulator running on port 8
 
 #Run expo server on port 8001
 cd /home/user/workspace/
+npm run server  & echo "Json Server Started"
 WEB_PORT=8001 expo start --web
