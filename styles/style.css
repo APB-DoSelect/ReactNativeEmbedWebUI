@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  #app {
+    background: url("/images/phoneOutline.png");
+    background-size: contain;
+    height: 700px;
+    width: 350px;
+  }
+  
+  #embed {
+    position: relative;
+    top: 42px;
+    left: 22px;
+    border: 0;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+  }
+  
